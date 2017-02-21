@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'dotenv-rails'
+gem 'dotenv'
 
 gem 'sendgrid-ruby'
 gem 'kintone'

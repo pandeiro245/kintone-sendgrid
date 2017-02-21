@@ -1,4 +1,10 @@
 require 'sendgrid-ruby'
+require 'dotenv'
+require 'kintone'
+require 'kintone_sync'
+
+Dotenv.load('.env')
+
 include SendGrid
 
 from = Email.new(email: 'from@ruffnote.com')

@@ -121,7 +121,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  dotenv-rails
+  dotenv
   kintone
   kintone_sync!
   sendgrid-ruby
